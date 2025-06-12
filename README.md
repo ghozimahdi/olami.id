@@ -1,4 +1,4 @@
-# KS Contractor & Supplier Landing Page
+# Olami.id Contractor & Supplier Landing Page
 
 A modern, responsive landing page for a construction contractor and supplier business built with Nuxt.js.
 
