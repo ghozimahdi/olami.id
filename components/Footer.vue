@@ -30,7 +30,7 @@
           <ul class="list-unstyled contact-info">
             <li class="d-flex mb-3">
               <b-icon icon="geo-alt-fill" class="me-3 mt-1"></b-icon>
-              <span>Jln. Berdikari Raya Makassar Sulawesi Selatan</span>
+              <span>Jl. Berdikari Raya No.11 Makassar 90243</span>
             </li>
             <li class="d-flex mb-3">
               <b-icon icon="telephone-fill" class="me-3 mt-1"></b-icon>
@@ -55,7 +55,7 @@
           <p class="mb-0">&copy; {{ new Date().getFullYear() }} Bersama Olami Sukses. {{ $t('footer.rights') }}</p>
         </div>
         <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
-          <p class="mb-0">{{ $t('footer.designedBy') }} <b-icon icon="heart-fill" variant="danger"></b-icon> by Your Company</p>
+          <p class="mb-0">{{ $t('footer.designedBy') }} <b-icon icon="heart-fill" variant="danger"></b-icon> by Ghozi Mahdi</p>
         </div>
       </div>
     </div>

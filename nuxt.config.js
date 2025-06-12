@@ -4,7 +4,7 @@ export default {
 
   // Global page headers
   head: {
-    title: 'KS Contractor & Supplier - Professional Construction Services',
+    title: 'BOS Contractor & Supplier - Professional Construction Services',
     htmlAttrs: {
       lang: 'en'
     },

@@ -294,7 +294,7 @@
                 <b-icon icon="geo-alt-fill" variant="primary" font-scale="1.5" class="me-3 mt-1"></b-icon>
                 <div>
                   <h5>{{ $t('contact.address') }}</h5>
-                  <p>Jln. Berdikari Raya Makassar Sulawesi Selatan</p>
+                  <p>Jl. Berdikari Raya No.11 Makassar 90243</p>
                 </div>
               </div>
 
