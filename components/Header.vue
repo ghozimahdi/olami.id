@@ -14,17 +14,33 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ms-auto">
-            <b-nav-item href="#home" active>Home</b-nav-item>
-            <b-nav-item href="#services">Services</b-nav-item>
-            <b-nav-item href="#about">About</b-nav-item>
-            <b-nav-item href="#projects">Projects</b-nav-item>
-            <b-nav-item href="#testimonials">Testimonials</b-nav-item>
-            <b-nav-item href="#testimonials">Advertising</b-nav-item>
-            <b-nav-item href="#contact">Contact</b-nav-item>
+            <b-nav-item href="#home" active>{{ $t('nav.home') }}</b-nav-item>
+            <b-nav-item href="#services">{{ $t('nav.services') }}</b-nav-item>
+            <b-nav-item href="#about">{{ $t('nav.about') }}</b-nav-item>
+            <b-nav-item href="#projects">{{ $t('nav.projects') }}</b-nav-item>
+            <b-nav-item href="#testimonials">{{ $t('nav.advertising') }}</b-nav-item>
+            <b-nav-item href="#testimonials">{{ $t('nav.testimonials') }}</b-nav-item>
+            <b-nav-item href="#contact">{{ $t('nav.contact') }}</b-nav-item>
           </b-navbar-nav>
 
-          <b-navbar-nav class="ms-lg-3">
-            <b-button variant="primary" href="#contact" class="nav-btn">Get a Quote</b-button>
+          <b-navbar-nav class="ms-lg-3 me-lg-3">
+            <b-button variant="primary" href="#contact" class="nav-btn">{{ $t('buttons.getQuote') }}</b-button>
+          </b-navbar-nav>
+
+          <b-navbar-nav>
+            <b-nav-item-dropdown text="" right>
+              <template #button-content>
+                <span class="language-switcher">{{ currentLocale.name }}</span>
+              </template>
+              <b-dropdown-item
+                  v-for="locale in availableLocales"
+                  :key="locale.code"
+                  @click="switchLanguage(locale.code)"
+                  :active="locale.code === $i18n.locale"
+              >
+                {{ locale.name }}
+              </b-dropdown-item>
+            </b-nav-item-dropdown>
           </b-navbar-nav>
         </b-collapse>
       </div>
@@ -34,7 +50,20 @@
 
 <script>
 export default {
-  name: 'HeaderComponent'
+  name: 'HeaderComponent',
+  computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale);
+    },
+    currentLocale() {
+      return this.$i18n.locales.find(i => i.code === this.$i18n.locale);
+    }
+  },
+  methods: {
+    switchLanguage(locale) {
+      this.$i18n.setLocale(locale);
+    }
+  }
 }
 </script>
 
@@ -71,6 +100,19 @@ export default {
 .nav-btn {
   font-weight: 500;
 }
+
+.language-switcher {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+}
+
+.language-switcher:hover {
+  color: #ff6b00;
+}
+
 
 @media (max-width: 992px) {
   .navbar-nav {

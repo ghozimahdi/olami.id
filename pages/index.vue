@@ -7,15 +7,14 @@
           <div class="col-lg-6">
             <div class="hero-content">
               <h1 class="display-4 fw-bold mb-4 fade-in">
-                Solusi Konstruksi Terpercaya
+                {{ $t('hero.title') }}
               </h1>
               <p class="lead mb-4 fade-in">
-                Mewujudkan visi Anda menjadi bangunan berkualitas dengan layanan konstruksi profesional dan material
-                terbaik.
+                {{ $t('hero.subtitle') }}
               </p>
               <div class="hero-btns fade-in">
-                <b-button variant="primary" size="lg" href="#services" class="me-3 mb-3 mb-sm-0">Our Services</b-button>
-                <b-button variant="outline-light" size="lg" href="#contact">Get a Quote</b-button>
+                <b-button variant="primary" size="lg" href="#services" class="me-3 mb-3 mb-sm-0">{{ $t('nav.services') }}</b-button>
+                <b-button variant="outline-light" size="lg" href="#contact">{{ $t('buttons.getQuote') }}</b-button>
               </div>
             </div>
           </div>
@@ -27,7 +26,7 @@
     <section id="services" class="section bg-light">
       <div class="container">
         <div class="section-title">
-          <h2>Our Services</h2>
+          <h2>{{ $t('services.title') }}</h2>
         </div>
         <div class="row">
           <div class="col-md-4 mb-4">
@@ -35,9 +34,8 @@
               <div class="service-icon">
                 <b-icon icon="building" font-scale="3"></b-icon>
               </div>
-              <h3>Construction</h3>
-              <p>Professional construction services for residential and commercial buildings with attention to detail
-                and quality craftsmanship.</p>
+              <h3>{{ $t('services.construction.title') }}</h3>
+              <p>{{ $t('services.construction.description') }}</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -45,9 +43,8 @@
               <div class="service-icon">
                 <b-icon icon="tools" font-scale="3"></b-icon>
               </div>
-              <h3>Renovation</h3>
-              <p>Complete renovation services to transform your existing space into something new and modern with
-                minimal disruption.</p>
+              <h3>{{ $t('services.renovation.title') }}</h3>
+              <p>{{ $t('services.renovation.description') }}</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -55,9 +52,8 @@
               <div class="service-icon">
                 <b-icon icon="truck" font-scale="3"></b-icon>
               </div>
-              <h3>Material Supply</h3>
-              <p>High-quality building materials delivered on time to your construction site, ensuring your project
-                stays on schedule.</p>
+              <h3>{{ $t('services.materialSupply.title') }}</h3>
+              <p>{{ $t('services.materialSupply.description') }}</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -65,8 +61,8 @@
               <div class="service-icon">
                 <b-icon icon="pencil-square" font-scale="3"></b-icon>
               </div>
-              <h3>Design & Planning</h3>
-              <p>Expert design and planning services to help you visualize your project before construction begins.</p>
+              <h3>{{ $t('services.design.title') }}</h3>
+              <p>{{ $t('services.design.description') }}</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -74,9 +70,8 @@
               <div class="service-icon">
                 <b-icon icon="house" font-scale="3"></b-icon>
               </div>
-              <h3>Interior Finishing</h3>
-              <p>Detailed interior finishing work to add the perfect final touches to your construction or renovation
-                project.</p>
+              <h3>{{ $t('services.interior.title') }}</h3>
+              <p>{{ $t('services.interior.description') }}</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -84,9 +79,8 @@
               <div class="service-icon">
                 <b-icon icon="gear" font-scale="3"></b-icon>
               </div>
-              <h3>Maintenance</h3>
-              <p>Ongoing maintenance services to keep your property in excellent condition and prevent costly
-                repairs.</p>
+              <h3>{{ $t('services.maintenance.title') }}</h3>
+              <p>{{ $t('services.maintenance.description') }}</p>
             </div>
           </div>
         </div>
@@ -106,13 +100,10 @@
           </div>
           <div class="col-lg-6">
             <div class="section-title text-start">
-              <h2>Tentang Kami</h2>
+              <h2>{{ $t('about.title') }}</h2>
             </div>
-            <p class="mb-4">Bersama Olami Sukses adalah perusahaan konstruksi dan supplier yang berpengalaman dalam
-              menyediakan solusi konstruksi yang berkualitas dan inovatif.</p>
-            <p class="mb-4">Dengan tim yang profesional dan berpengalaman, kami menawarkan berbagai layanan konstruksi,
-              termasuk desain, pembangunan, dan renovasi bangunan. Kami juga menyediakan berbagai material konstruksi
-              yang berkualitas tinggi dari supplier terpercaya.</p>
+            <p class="mb-4">{{ $t('about.description1') }}</p>
+            <p class="mb-4">{{ $t('about.description2') }}</p>
 
             <div class="row mt-5">
               <div class="col-sm-6 mb-4">
@@ -121,8 +112,8 @@
                     <b-icon icon="check-circle-fill" variant="primary" font-scale="2"></b-icon>
                   </div>
                   <div>
-                    <h4>Material Berkualitas</h4>
-                    <p>Kami hanya menggunakan material berkualitas tinggi untuk setiap proyek.</p>
+                    <h4>{{ $t('about.features.qualityMaterials.title') }}</h4>
+                    <p>{{ $t('about.features.qualityMaterials.description') }}</p>
                   </div>
                 </div>
               </div>
@@ -132,8 +123,8 @@
                     <b-icon icon="check-circle-fill" variant="primary" font-scale="2"></b-icon>
                   </div>
                   <div>
-                    <h4>Tim Profesional</h4>
-                    <p>Tim kami terdiri dari profesional bersertifikat dan berpengalaman.</p>
+                    <h4>{{ $t('about.features.professionalTeam.title') }}</h4>
+                    <p>{{ $t('about.features.professionalTeam.description') }}</p>
                   </div>
                 </div>
               </div>
@@ -143,8 +134,8 @@
                     <b-icon icon="check-circle-fill" variant="primary" font-scale="2"></b-icon>
                   </div>
                   <div>
-                    <h4>Pengiriman Tepat Waktu</h4>
-                    <p>Kami berkomitmen untuk menyelesaikan proyek sesuai jadwal.</p>
+                    <h4>{{ $t('about.features.onTimeDelivery.title') }}</h4>
+                    <p>{{ $t('about.features.onTimeDelivery.description') }}</p>
                   </div>
                 </div>
               </div>
@@ -154,15 +145,15 @@
                     <b-icon icon="check-circle-fill" variant="primary" font-scale="2"></b-icon>
                   </div>
                   <div>
-                    <h4>Kepuasan Pelanggan</h4>
-                    <p>Kepuasan Anda adalah prioritas utama kami dalam setiap proyek.</p>
+                    <h4>{{ $t('about.features.customerSatisfaction.title') }}</h4>
+                    <p>{{ $t('about.features.customerSatisfaction.description') }}</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="mt-5">
-              <h4 class="mb-4">Tim Manajemen</h4>
+              <h4 class="mb-4">{{ $t('about.management.title') }}</h4>
               <p class="mb-2">Ir. H.Toni Utina, MSc, IPM</p>
               <p class="mb-2">Zulfikar A Patuti, ST</p>
               <p class="mb-2">Diah Ramayanti, ST</p>
@@ -176,7 +167,7 @@
     <section id="projects" class="section bg-light">
       <div class="container">
         <div class="section-title">
-          <h2>Our Projects</h2>
+          <h2>{{ $t('projects.title') }}</h2>
         </div>
         <div class="row">
           <div class="col-md-4 mb-4">
@@ -187,8 +178,8 @@
                     alt="Residential Construction" class="img-fluid">
               </div>
               <div class="project-info">
-                <h3>Residential Construction</h3>
-                <p>Modern family home construction with premium materials and energy-efficient design.</p>
+                <h3>{{ $t('projects.residential.title') }}</h3>
+                <p>{{ $t('projects.residential.description') }}</p>
               </div>
             </div>
           </div>
@@ -200,8 +191,8 @@
                     alt="Commercial Building" class="img-fluid">
               </div>
               <div class="project-info">
-                <h3>Commercial Building</h3>
-                <p>Multi-story office building with contemporary design and sustainable features.</p>
+                <h3>{{ $t('projects.commercial.title') }}</h3>
+                <p>{{ $t('projects.commercial.description') }}</p>
               </div>
             </div>
           </div>
@@ -213,9 +204,8 @@
                     alt="Interior Renovation" class="img-fluid">
               </div>
               <div class="project-info">
-                <h3>Interior Renovation</h3>
-                <p>Complete interior renovation of a historic building, preserving its character while modernizing
-                  amenities.</p>
+                <h3>{{ $t('projects.interior.title') }}</h3>
+                <p>{{ $t('projects.interior.description') }}</p>
               </div>
             </div>
           </div>
@@ -227,7 +217,7 @@
     <section id="testimonials" class="section">
       <div class="container">
         <div class="section-title">
-          <h2>Client Testimonials</h2>
+          <h2>{{ $t('testimonials.title') }}</h2>
         </div>
         <div class="row">
           <div class="col-md-4 mb-4">
@@ -243,7 +233,7 @@
                 </div>
                 <div>
                   <h5 class="mb-0">John Smith</h5>
-                  <p class="mb-0 text-muted">Homeowner</p>
+                  <p class="mb-0 text-muted">{{ $t('testimonials.roles.homeowner') }}</p>
                 </div>
               </div>
             </div>
@@ -261,7 +251,7 @@
                 </div>
                 <div>
                   <h5 class="mb-0">Sarah Johnson</h5>
-                  <p class="mb-0 text-muted">Business Owner</p>
+                  <p class="mb-0 text-muted">{{ $t('testimonials.roles.businessOwner') }}</p>
                 </div>
               </div>
             </div>
@@ -279,7 +269,7 @@
                 </div>
                 <div>
                   <h5 class="mb-0">Michael Brown</h5>
-                  <p class="mb-0 text-muted">Project Manager</p>
+                  <p class="mb-0 text-muted">{{ $t('testimonials.roles.projectManager') }}</p>
                 </div>
               </div>
             </div>
@@ -292,19 +282,18 @@
     <section id="contact" class="section bg-light">
       <div class="container">
         <div class="section-title">
-          <h2>Contact Us</h2>
+          <h2>{{ $t('contact.title') }}</h2>
         </div>
         <div class="row">
           <div class="col-lg-6 mb-5 mb-lg-0">
             <div class="contact-info">
-              <h3 class="mb-4">Get In Touch</h3>
-              <p class="mb-4">Have questions about our services or want to request a quote? Contact us using the form or
-                the information below.</p>
+              <h3 class="mb-4">{{ $t('contact.getInTouch') }}</h3>
+              <p class="mb-4">{{ $t('contact.getInTouchText') }}</p>
 
               <div class="contact-item d-flex mb-3">
                 <b-icon icon="geo-alt-fill" variant="primary" font-scale="1.5" class="me-3 mt-1"></b-icon>
                 <div>
-                  <h5>Alamat</h5>
+                  <h5>{{ $t('contact.address') }}</h5>
                   <p>Jln. Berdikari Raya Makassar Sulawesi Selatan</p>
                 </div>
               </div>
@@ -312,7 +301,7 @@
               <div class="contact-item d-flex mb-3">
                 <b-icon icon="telephone-fill" variant="primary" font-scale="1.5" class="me-3 mt-1"></b-icon>
                 <div>
-                  <h5>Telepon</h5>
+                  <h5>{{ $t('contact.phone') }}</h5>
                   <p>0811 4114 805</p>
                 </div>
               </div>
@@ -320,7 +309,7 @@
               <div class="contact-item d-flex mb-3">
                 <b-icon icon="envelope-fill" variant="primary" font-scale="1.5" class="me-3 mt-1"></b-icon>
                 <div>
-                  <h5>Email</h5>
+                  <h5>{{ $t('contact.email') }}</h5>
                   <p>info@olami.id | bos@olami.id</p>
                 </div>
               </div>
@@ -328,7 +317,7 @@
               <div class="contact-item d-flex mb-3">
                 <b-icon icon="whatsapp" variant="primary" font-scale="1.5" class="me-3 mt-1"></b-icon>
                 <div>
-                  <h5>WhatsApp</h5>
+                  <h5>{{ $t('contact.whatsapp') }}</h5>
                   <p>0811 4114 805</p>
                 </div>
               </div>
@@ -336,8 +325,8 @@
               <div class="contact-item d-flex">
                 <b-icon icon="clock-fill" variant="primary" font-scale="1.5" class="me-3 mt-1"></b-icon>
                 <div>
-                  <h5>Jam Kerja</h5>
-                  <p>Senin - Jumat: 08:00 - 17:00</p>
+                  <h5>{{ $t('contact.workingHours') }}</h5>
+                  <p>{{ $t('contact.workingHoursValue') }}</p>
                 </div>
               </div>
             </div>
@@ -345,30 +334,30 @@
 
           <div class="col-lg-6">
             <div class="contact-form bg-white p-4 rounded shadow">
-              <h3 class="mb-4">Send a Message</h3>
+              <h3 class="mb-4">{{ $t('contact.form.title') }}</h3>
               <b-form @submit.prevent="submitForm">
                 <b-form-group>
-                  <b-form-input v-model="form.name" placeholder="Your Name" required></b-form-input>
+                  <b-form-input v-model="form.name" :placeholder="$t('contact.form.name')" required></b-form-input>
                 </b-form-group>
 
                 <b-form-group class="mt-3">
-                  <b-form-input v-model="form.email" type="email" placeholder="Your Email" required></b-form-input>
+                  <b-form-input v-model="form.email" type="email" :placeholder="$t('contact.form.email')" required></b-form-input>
                 </b-form-group>
 
                 <b-form-group class="mt-3">
-                  <b-form-input v-model="form.phone" placeholder="Your Phone"></b-form-input>
+                  <b-form-input v-model="form.phone" :placeholder="$t('contact.form.phone')"></b-form-input>
                 </b-form-group>
 
                 <b-form-group class="mt-3">
-                  <b-form-select v-model="form.service" :options="serviceOptions"></b-form-select>
+                  <b-form-select v-model="form.service" :options="localizedServiceOptions"></b-form-select>
                 </b-form-group>
 
                 <b-form-group class="mt-3">
-                  <b-form-textarea v-model="form.message" placeholder="Your Message" rows="5"
+                  <b-form-textarea v-model="form.message" :placeholder="$t('contact.form.message')" rows="5"
                                    required></b-form-textarea>
                 </b-form-group>
 
-                <b-button type="submit" variant="primary" class="mt-3 w-100">Send Message</b-button>
+                <b-button type="submit" variant="primary" class="mt-3 w-100">{{ $t('buttons.sendMessage') }}</b-button>
               </b-form>
             </div>
           </div>
@@ -389,15 +378,19 @@ export default {
         phone: '',
         service: null,
         message: ''
-      },
-      serviceOptions: [
-        {value: null, text: 'Select a Service'},
-        {value: 'construction', text: 'Construction'},
-        {value: 'renovation', text: 'Renovation'},
-        {value: 'material', text: 'Material Supply'},
-        {value: 'design', text: 'Design & Planning'},
-        {value: 'interior', text: 'Interior Finishing'},
-        {value: 'maintenance', text: 'Maintenance'}
+      }
+    }
+  },
+  computed: {
+    localizedServiceOptions() {
+      return [
+        {value: null, text: this.$t('contact.form.selectService')},
+        {value: 'construction', text: this.$t('services.construction.title')},
+        {value: 'renovation', text: this.$t('services.renovation.title')},
+        {value: 'material', text: this.$t('services.materialSupply.title')},
+        {value: 'design', text: this.$t('services.design.title')},
+        {value: 'interior', text: this.$t('services.interior.title')},
+        {value: 'maintenance', text: this.$t('services.maintenance.title')}
       ]
     }
   },
@@ -423,11 +416,11 @@ export default {
           }
         });
 
-        alert('Thank you for your message! We will get back to you soon.');
+        alert(this.$t('contact.form.successMessage'));
         this.resetForm();
       } catch (error) {
         console.error('Error sending message:', error);
-        alert('Sorry, there was an error sending your message. Please try again later.');
+        alert(this.$t('contact.form.errorMessage'));
       }
     },
     resetForm() {

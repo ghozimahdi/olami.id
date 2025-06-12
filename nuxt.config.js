@@ -40,8 +40,31 @@ export default {
   // Modules
   modules: [
     'bootstrap-vue/nuxt',
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'nuxt-i18n'
   ],
+
+  // i18n module configuration
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        name: 'En',
+        file: 'en.js'
+      },
+      {
+        code: 'id',
+        name: 'In',
+        file: 'id.js'
+      }
+    ],
+    defaultLocale: 'id',
+    langDir: 'lang/',
+    strategy: 'prefix_except_default',
+    vueI18n: {
+      fallbackLocale: 'id'
+    }
+  },
 
   // Axios module configuration
   axios: {
