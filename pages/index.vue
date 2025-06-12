@@ -296,7 +296,7 @@
                 <b-icon icon="envelope-fill" variant="primary" font-scale="1.5" class="me-3 mt-1"></b-icon>
                 <div>
                   <h5>Email</h5>
-                  <p>info@olami.id</p>
+                  <p>info@olami.id | bos@olami.id</p>
                 </div>
               </div>
 

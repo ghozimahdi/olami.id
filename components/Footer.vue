@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <h3 class="text-white mb-4">KS Contractor & Supplier</h3>
+          <h3 class="text-white mb-4">PT Bersama Olami Sukses</h3>
           <p>Providing quality construction services and materials for residential and commercial projects. Your trusted partner in building excellence.</p>
           <div class="social-icons mt-4">
             <a href="#" class="me-3"><b-icon icon="facebook" font-scale="1.5"></b-icon></a>
@@ -30,15 +30,15 @@
           <ul class="list-unstyled contact-info">
             <li class="d-flex mb-3">
               <b-icon icon="geo-alt-fill" class="me-3 mt-1"></b-icon>
-              <span>123 Construction Ave, Building City, 12345</span>
+              <span>Jln. Berdikari Raya Makassar Sulawesi Selatan</span>
             </li>
             <li class="d-flex mb-3">
               <b-icon icon="telephone-fill" class="me-3 mt-1"></b-icon>
-              <span>+1 (123) 456-7890</span>
+              <span>0811 4114 805</span>
             </li>
             <li class="d-flex mb-3">
               <b-icon icon="envelope-fill" class="me-3 mt-1"></b-icon>
-              <span>info@kscontractor.com</span>
+              <span>info@olami.id | bos@olami.id</span>
             </li>
             <li class="d-flex">
               <b-icon icon="clock-fill" class="me-3 mt-1"></b-icon>
