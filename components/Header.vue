@@ -85,6 +85,11 @@ export default {
   object-fit: contain;
 }
 
+.brand-text {
+  line-height: 1.1;
+  font-size: 1.2rem;
+}
+
 .navbar-nav .nav-link {
   font-weight: 500;
   padding: 0.5rem 1rem;
