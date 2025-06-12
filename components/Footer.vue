@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <h3 class="text-white mb-4">PT Bersama Olami Sukses</h3>
+          <h3 class="text-white mb-4">Bersama Olami Sukses, pt</h3>
           <p>Providing quality construction services and materials for residential and commercial projects. Your trusted partner in building excellence.</p>
           <div class="social-icons mt-4">
             <a href="#" class="me-3"><b-icon icon="facebook" font-scale="1.5"></b-icon></a>
@@ -52,7 +52,7 @@
       
       <div class="row">
         <div class="col-md-6 text-center text-md-start">
-          <p class="mb-0">&copy; {{ new Date().getFullYear() }} KS Contractor & Supplier. All rights reserved.</p>
+          <p class="mb-0">&copy; {{ new Date().getFullYear() }} Bersama Olami Sukses. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
           <p class="mb-0">Designed with <b-icon icon="heart-fill" variant="danger"></b-icon> by Your Company</p>

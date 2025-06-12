@@ -251,7 +251,7 @@
           <div class="col-md-4 mb-4">
             <div class="testimonial-card">
               <div class="testimonial-content">
-                <p>"We've worked with many contractors over the years, but KS stands out for their reliability and
+                <p>"We've worked with many contractors over the years, but Bersama Olami Sukses stands out for their reliability and
                   quality of work. They completed our office building on time and within budget."</p>
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
@@ -269,7 +269,7 @@
           <div class="col-md-4 mb-4">
             <div class="testimonial-card">
               <div class="testimonial-content">
-                <p>"The quality of materials provided by KS Supplier is consistently excellent. Their delivery is always
+                <p>"The quality of materials provided by Bersama Olami Sukses Supplier is consistently excellent. Their delivery is always
                   on time, which has helped us complete multiple projects without delays."</p>
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
