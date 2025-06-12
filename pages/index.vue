@@ -7,10 +7,11 @@
           <div class="col-lg-6">
             <div class="hero-content">
               <h1 class="display-4 fw-bold mb-4 fade-in">
-                PT Bersama Olami Sukses
+                Solusi Konstruksi Terpercaya
               </h1>
               <p class="lead mb-4 fade-in">
-                Perusahaan konstruksi dan supplier yang berpengalaman dalam menyediakan solusi konstruksi yang berkualitas dan inovatif.
+                Mewujudkan visi Anda menjadi bangunan berkualitas dengan layanan konstruksi profesional dan material
+                terbaik.
               </p>
               <div class="hero-btns fade-in">
                 <b-button variant="primary" size="lg" href="#services" class="me-3 mb-3 mb-sm-0">Our Services</b-button>
@@ -35,7 +36,8 @@
                 <b-icon icon="building" font-scale="3"></b-icon>
               </div>
               <h3>Construction</h3>
-              <p>Professional construction services for residential and commercial buildings with attention to detail and quality craftsmanship.</p>
+              <p>Professional construction services for residential and commercial buildings with attention to detail
+                and quality craftsmanship.</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -44,7 +46,8 @@
                 <b-icon icon="tools" font-scale="3"></b-icon>
               </div>
               <h3>Renovation</h3>
-              <p>Complete renovation services to transform your existing space into something new and modern with minimal disruption.</p>
+              <p>Complete renovation services to transform your existing space into something new and modern with
+                minimal disruption.</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -53,7 +56,8 @@
                 <b-icon icon="truck" font-scale="3"></b-icon>
               </div>
               <h3>Material Supply</h3>
-              <p>High-quality building materials delivered on time to your construction site, ensuring your project stays on schedule.</p>
+              <p>High-quality building materials delivered on time to your construction site, ensuring your project
+                stays on schedule.</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -71,7 +75,8 @@
                 <b-icon icon="house" font-scale="3"></b-icon>
               </div>
               <h3>Interior Finishing</h3>
-              <p>Detailed interior finishing work to add the perfect final touches to your construction or renovation project.</p>
+              <p>Detailed interior finishing work to add the perfect final touches to your construction or renovation
+                project.</p>
             </div>
           </div>
           <div class="col-md-4 mb-4">
@@ -80,7 +85,8 @@
                 <b-icon icon="gear" font-scale="3"></b-icon>
               </div>
               <h3>Maintenance</h3>
-              <p>Ongoing maintenance services to keep your property in excellent condition and prevent costly repairs.</p>
+              <p>Ongoing maintenance services to keep your property in excellent condition and prevent costly
+                repairs.</p>
             </div>
           </div>
         </div>
@@ -93,15 +99,20 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0">
             <div class="about-img">
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="About KS Contractor" class="img-fluid rounded shadow">
+              <img
+                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  alt="About KS Contractor" class="img-fluid rounded shadow">
             </div>
           </div>
           <div class="col-lg-6">
             <div class="section-title text-start">
               <h2>Tentang Kami</h2>
             </div>
-            <p class="mb-4">PT Bersama Olami Sukses adalah perusahaan konstruksi dan supplier yang berpengalaman dalam menyediakan solusi konstruksi yang berkualitas dan inovatif.</p>
-            <p class="mb-4">Dengan tim yang profesional dan berpengalaman, kami menawarkan berbagai layanan konstruksi, termasuk desain, pembangunan, dan renovasi bangunan. Kami juga menyediakan berbagai material konstruksi yang berkualitas tinggi dari supplier terpercaya.</p>
+            <p class="mb-4">PT Bersama Olami Sukses adalah perusahaan konstruksi dan supplier yang berpengalaman dalam
+              menyediakan solusi konstruksi yang berkualitas dan inovatif.</p>
+            <p class="mb-4">Dengan tim yang profesional dan berpengalaman, kami menawarkan berbagai layanan konstruksi,
+              termasuk desain, pembangunan, dan renovasi bangunan. Kami juga menyediakan berbagai material konstruksi
+              yang berkualitas tinggi dari supplier terpercaya.</p>
 
             <div class="row mt-5">
               <div class="col-sm-6 mb-4">
@@ -171,7 +182,9 @@
           <div class="col-md-4 mb-4">
             <div class="project-card">
               <div class="project-img">
-                <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Residential Construction" class="img-fluid">
+                <img
+                    src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="Residential Construction" class="img-fluid">
               </div>
               <div class="project-info">
                 <h3>Residential Construction</h3>
@@ -182,7 +195,9 @@
           <div class="col-md-4 mb-4">
             <div class="project-card">
               <div class="project-img">
-                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Commercial Building" class="img-fluid">
+                <img
+                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="Commercial Building" class="img-fluid">
               </div>
               <div class="project-info">
                 <h3>Commercial Building</h3>
@@ -193,11 +208,14 @@
           <div class="col-md-4 mb-4">
             <div class="project-card">
               <div class="project-img">
-                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Interior Renovation" class="img-fluid">
+                <img
+                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="Interior Renovation" class="img-fluid">
               </div>
               <div class="project-info">
                 <h3>Interior Renovation</h3>
-                <p>Complete interior renovation of a historic building, preserving its character while modernizing amenities.</p>
+                <p>Complete interior renovation of a historic building, preserving its character while modernizing
+                  amenities.</p>
               </div>
             </div>
           </div>
@@ -215,11 +233,13 @@
           <div class="col-md-4 mb-4">
             <div class="testimonial-card">
               <div class="testimonial-content">
-                <p>"KS Contractor & Supplier delivered exceptional quality on our home renovation project. Their attention to detail and professionalism exceeded our expectations."</p>
+                <p>"KS Contractor & Supplier delivered exceptional quality on our home renovation project. Their
+                  attention to detail and professionalism exceeded our expectations."</p>
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
                 <div class="testimonial-avatar me-3">
-                  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith" class="img-fluid rounded-circle">
+                  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith"
+                       class="img-fluid rounded-circle">
                 </div>
                 <div>
                   <h5 class="mb-0">John Smith</h5>
@@ -231,11 +251,13 @@
           <div class="col-md-4 mb-4">
             <div class="testimonial-card">
               <div class="testimonial-content">
-                <p>"We've worked with many contractors over the years, but KS stands out for their reliability and quality of work. They completed our office building on time and within budget."</p>
+                <p>"We've worked with many contractors over the years, but KS stands out for their reliability and
+                  quality of work. They completed our office building on time and within budget."</p>
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
                 <div class="testimonial-avatar me-3">
-                  <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" class="img-fluid rounded-circle">
+                  <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson"
+                       class="img-fluid rounded-circle">
                 </div>
                 <div>
                   <h5 class="mb-0">Sarah Johnson</h5>
@@ -247,11 +269,13 @@
           <div class="col-md-4 mb-4">
             <div class="testimonial-card">
               <div class="testimonial-content">
-                <p>"The quality of materials provided by KS Supplier is consistently excellent. Their delivery is always on time, which has helped us complete multiple projects without delays."</p>
+                <p>"The quality of materials provided by KS Supplier is consistently excellent. Their delivery is always
+                  on time, which has helped us complete multiple projects without delays."</p>
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
                 <div class="testimonial-avatar me-3">
-                  <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Michael Brown" class="img-fluid rounded-circle">
+                  <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Michael Brown"
+                       class="img-fluid rounded-circle">
                 </div>
                 <div>
                   <h5 class="mb-0">Michael Brown</h5>
@@ -274,7 +298,8 @@
           <div class="col-lg-6 mb-5 mb-lg-0">
             <div class="contact-info">
               <h3 class="mb-4">Get In Touch</h3>
-              <p class="mb-4">Have questions about our services or want to request a quote? Contact us using the form or the information below.</p>
+              <p class="mb-4">Have questions about our services or want to request a quote? Contact us using the form or
+                the information below.</p>
 
               <div class="contact-item d-flex mb-3">
                 <b-icon icon="geo-alt-fill" variant="primary" font-scale="1.5" class="me-3 mt-1"></b-icon>
@@ -339,7 +364,8 @@
                 </b-form-group>
 
                 <b-form-group class="mt-3">
-                  <b-form-textarea v-model="form.message" placeholder="Your Message" rows="5" required></b-form-textarea>
+                  <b-form-textarea v-model="form.message" placeholder="Your Message" rows="5"
+                                   required></b-form-textarea>
                 </b-form-group>
 
                 <b-button type="submit" variant="primary" class="mt-3 w-100">Send Message</b-button>
@@ -365,21 +391,44 @@ export default {
         message: ''
       },
       serviceOptions: [
-        { value: null, text: 'Select a Service' },
-        { value: 'construction', text: 'Construction' },
-        { value: 'renovation', text: 'Renovation' },
-        { value: 'material', text: 'Material Supply' },
-        { value: 'design', text: 'Design & Planning' },
-        { value: 'interior', text: 'Interior Finishing' },
-        { value: 'maintenance', text: 'Maintenance' }
+        {value: null, text: 'Select a Service'},
+        {value: 'construction', text: 'Construction'},
+        {value: 'renovation', text: 'Renovation'},
+        {value: 'material', text: 'Material Supply'},
+        {value: 'design', text: 'Design & Planning'},
+        {value: 'interior', text: 'Interior Finishing'},
+        {value: 'maintenance', text: 'Maintenance'}
       ]
     }
   },
   methods: {
-    submitForm() {
-      // In a real application, you would send this data to your backend
-      alert('Thank you for your message! We will get back to you soon.');
-      this.resetForm();
+    async submitForm() {
+      try {
+        // Create a formatted message with all form data
+        const formData = new FormData();
+        formData.append('name', this.form.name);
+        formData.append('email', this.form.email);
+        formData.append('phone', this.form.phone);
+        formData.append('service', this.form.service || 'Not specified');
+        formData.append('message', this.form.message);
+        formData.append('_replyto', this.form.email);
+
+        // Add the recipient emails - these will receive a copy of the submission
+        formData.append('_cc', 'info@olami.id,bos@olami.id');
+
+        // Send the form data to Formspree - using the main recipient email
+        await this.$axios.post('https://formspree.io/info@olami.id', formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data'
+          }
+        });
+
+        alert('Thank you for your message! We will get back to you soon.');
+        this.resetForm();
+      } catch (error) {
+        console.error('Error sending message:', error);
+        alert('Sorry, there was an error sending your message. Please try again later.');
+      }
     },
     resetForm() {
       this.form = {

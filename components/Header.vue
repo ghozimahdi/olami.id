@@ -3,8 +3,11 @@
     <b-navbar toggleable="lg" type="light" class="py-3">
       <div class="container">
         <b-navbar-brand href="/" class="d-flex align-items-center">
-          <span class="brand-text">KS</span>
-          <span class="ms-2">Contractor & Supplier</span>
+          <img src="@/assets/images/icon_pt.jpeg" alt="KS Contractor & Supplier" class="brand-logo">
+          <div class="d-flex flex-column ms-3">
+            <span class="brand-text">PT Bersama Olami Sukses</span>
+            <span class="brand-text">Contractor & Supplier</span>
+          </div>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -46,11 +49,10 @@ export default {
   transition: all 0.3s ease;
 }
 
-.brand-text {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #ff6b00;
-  letter-spacing: -1px;
+.brand-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
 .navbar-nav .nav-link {
@@ -73,7 +75,7 @@ export default {
   .navbar-nav {
     padding: 1rem 0;
   }
-  
+
   .nav-btn {
     margin-top: 1rem;
     width: 100%;
