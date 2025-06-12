@@ -108,7 +108,7 @@
             <div class="section-title text-start">
               <h2>Tentang Kami</h2>
             </div>
-            <p class="mb-4">PT Bersama Olami Sukses adalah perusahaan konstruksi dan supplier yang berpengalaman dalam
+            <p class="mb-4">Bersama Olami Sukses adalah perusahaan konstruksi dan supplier yang berpengalaman dalam
               menyediakan solusi konstruksi yang berkualitas dan inovatif.</p>
             <p class="mb-4">Dengan tim yang profesional dan berpengalaman, kami menawarkan berbagai layanan konstruksi,
               termasuk desain, pembangunan, dan renovasi bangunan. Kami juga menyediakan berbagai material konstruksi
@@ -233,7 +233,7 @@
           <div class="col-md-4 mb-4">
             <div class="testimonial-card">
               <div class="testimonial-content">
-                <p>"KS Contractor & Supplier delivered exceptional quality on our home renovation project. Their
+                <p>"Bersama Olami Sukses, pt delivered exceptional quality on our home renovation project. Their
                   attention to detail and professionalism exceeded our expectations."</p>
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">

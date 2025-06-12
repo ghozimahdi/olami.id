@@ -5,7 +5,7 @@
         <b-navbar-brand href="/" class="d-flex align-items-center">
           <img src="@/assets/images/icon_pt.jpeg" alt="KS Contractor & Supplier" class="brand-logo">
           <div class="d-flex flex-column ms-3">
-            <span class="brand-text">PT Bersama Olami Sukses</span>
+            <span class="brand-text">Bersama Olami Sukses, pt</span>
             <span class="brand-text">Contractor & Supplier</span>
           </div>
         </b-navbar-brand>
@@ -19,6 +19,7 @@
             <b-nav-item href="#about">About</b-nav-item>
             <b-nav-item href="#projects">Projects</b-nav-item>
             <b-nav-item href="#testimonials">Testimonials</b-nav-item>
+            <b-nav-item href="#testimonials">Advertising</b-nav-item>
             <b-nav-item href="#contact">Contact</b-nav-item>
           </b-navbar-nav>
 
