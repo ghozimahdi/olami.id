@@ -231,11 +231,11 @@
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
                 <div class="testimonial-avatar me-3">
-                  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith"
+                  <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="John Smith"
                        class="img-fluid rounded-circle">
                 </div>
                 <div>
-                  <h5 class="mb-0">John Smith</h5>
+                  <h5 class="mb-0">Andi Saputra</h5>
                   <p class="mb-0 text-muted">{{ $t('testimonials.roles.homeowner') }}</p>
                 </div>
               </div>
@@ -250,11 +250,11 @@
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
                 <div class="testimonial-avatar me-3">
-                  <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson"
+                  <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="Sarah Johnson"
                        class="img-fluid rounded-circle">
                 </div>
                 <div>
-                  <h5 class="mb-0">Sarah Johnson</h5>
+                  <h5 class="mb-0">Rizky Pratama</h5>
                   <p class="mb-0 text-muted">{{ $t('testimonials.roles.businessOwner') }}</p>
                 </div>
               </div>
@@ -273,7 +273,7 @@
                        class="img-fluid rounded-circle">
                 </div>
                 <div>
-                  <h5 class="mb-0">Michael Brown</h5>
+                  <h5 class="mb-0">Fahmi Ramadhan</h5>
                   <p class="mb-0 text-muted">{{ $t('testimonials.roles.projectManager') }}</p>
                 </div>
               </div>
