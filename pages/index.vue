@@ -13,7 +13,10 @@
                 {{ $t('hero.subtitle') }}
               </p>
               <div class="hero-btns fade-in">
-                <b-button variant="primary" size="lg" href="#services" class="me-3 mb-3 mb-sm-0">{{ $t('nav.services') }}</b-button>
+                <b-button variant="primary" size="lg" href="#services" class="me-3 mb-3 mb-sm-0">{{
+                    $t('nav.services')
+                  }}
+                </b-button>
                 <b-button variant="outline-light" size="lg" href="#contact">{{ $t('buttons.getQuote') }}</b-button>
               </div>
             </div>
@@ -241,7 +244,8 @@
           <div class="col-md-4 mb-4">
             <div class="testimonial-card">
               <div class="testimonial-content">
-                <p>"We've worked with many contractors over the years, but Bersama Olami Sukses stands out for their reliability and
+                <p>"We've worked with many contractors over the years, but Bersama Olami Sukses stands out for their
+                  reliability and
                   quality of work. They completed our office building on time and within budget."</p>
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
@@ -259,7 +263,8 @@
           <div class="col-md-4 mb-4">
             <div class="testimonial-card">
               <div class="testimonial-content">
-                <p>"The quality of materials provided by Bersama Olami Sukses Supplier is consistently excellent. Their delivery is always
+                <p>"The quality of materials provided by Bersama Olami Sukses Supplier is consistently excellent. Their
+                  delivery is always
                   on time, which has helped us complete multiple projects without delays."</p>
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
@@ -341,7 +346,8 @@
                 </b-form-group>
 
                 <b-form-group class="mt-3">
-                  <b-form-input v-model="form.email" type="email" :placeholder="$t('contact.form.email')" required></b-form-input>
+                  <b-form-input v-model="form.email" type="email" :placeholder="$t('contact.form.email')"
+                                required></b-form-input>
                 </b-form-group>
 
                 <b-form-group class="mt-3">
@@ -405,12 +411,10 @@ export default {
         formData.append('service', this.form.service || 'Not specified');
         formData.append('message', this.form.message);
         formData.append('_replyto', this.form.email);
+        // Email will be CC'd to bos@olami.id
+        formData.append('_cc', 'bos@olami.id');
 
-        // Add the recipient emails - these will receive a copy of the submission
-        formData.append('_cc', 'info@olami.id,bos@olami.id');
-
-        // Send the form data to Formspree - using the main recipient email
-        await this.$axios.post('https://formspree.io/info@olami.id', formData, {
+        await this.$axios.post('https://formsubmit.co/info@olami.id', formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           }
