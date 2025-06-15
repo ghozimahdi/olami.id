@@ -157,9 +157,9 @@
 
             <div class="mt-5">
               <h4 class="mb-4">{{ $t('about.management.title') }}</h4>
-              <p class="mb-2">Abd.Rasyid SH CPL</p>
-              <p class="mb-2">Zulfikar A Patuti, ST</p>
-              <p class="mb-2">Diah Ramayanti, ST</p>
+              <p class="mb-2">Abd.Rasyid, S.H. C.P.L.</p>
+              <p class="mb-2">Zulfikar A.Patuti, S.T.</p>
+              <p class="mb-2">Diah Ramayanti, S.T.</p>
             </div>
           </div>
         </div>
