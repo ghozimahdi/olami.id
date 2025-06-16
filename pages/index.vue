@@ -157,7 +157,7 @@
 
             <div class="mt-5">
               <h4 class="mb-4">{{ $t('about.management.title') }}</h4>
-              <p class="mb-2">Abd.Rasyid, S.H. C.P.L.</p>
+              <p class="mb-2">Abdul Rasyid SH, C.P.L CPLE</p>
               <p class="mb-2">Zulfikar A.Patuti, S.T.</p>
               <p class="mb-2">Diah Ramayanti, S.T.</p>
             </div>
@@ -231,11 +231,11 @@
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
                 <div class="testimonial-avatar me-3">
-                  <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="John Smith"
+                  <img src="@/assets/images/pemilik-rumah.png" alt="Charissa Azha"
                        class="img-fluid rounded-circle">
                 </div>
                 <div>
-                  <h5 class="mb-0">Andi Saputra</h5>
+                  <h5 class="mb-0">Charissa Azha</h5>
                   <p class="mb-0 text-muted">{{ $t('testimonials.roles.homeowner') }}</p>
                 </div>
               </div>
@@ -250,11 +250,11 @@
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
                 <div class="testimonial-avatar me-3">
-                  <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="Sarah Johnson"
+                  <img src="@/assets/images/pemilik-bisnis.jpeg" alt="Doel Fikar"
                        class="img-fluid rounded-circle">
                 </div>
                 <div>
-                  <h5 class="mb-0">Rizky Pratama</h5>
+                  <h5 class="mb-0">Doel Fikar</h5>
                   <p class="mb-0 text-muted">{{ $t('testimonials.roles.businessOwner') }}</p>
                 </div>
               </div>
@@ -269,11 +269,11 @@
               </div>
               <div class="testimonial-author d-flex align-items-center mt-4">
                 <div class="testimonial-avatar me-3">
-                  <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Michael Brown"
+                  <img src="@/assets/images/manager-project.jpeg" alt="Michael Brown"
                        class="img-fluid rounded-circle">
                 </div>
                 <div>
-                  <h5 class="mb-0">Fahmi Ramadhan</h5>
+                  <h5 class="mb-0">Faisal Balango</h5>
                   <p class="mb-0 text-muted">{{ $t('testimonials.roles.projectManager') }}</p>
                 </div>
               </div>
